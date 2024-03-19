@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 210, 221);
+    margin: 0px;
+    height: 100%;
+    width:100%;
+}
+#panel{
+    width:80%;
+    height:90%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+#ptop{
+    padding:0px 10%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    color:white;
+    width:100%;
+    height:17%;
+    background-color: rgb(96, 233, 238);
+}
+#heading-section{
+    display:flex;
+    width:50%;
+    gap: 50px;
+}
+#heading-section button{
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 30px;
+}
+#pbtm{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:83%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    flex-direction: row;
+    font-size: 30px;
+    color:rgb(28, 240, 74);
+    /* overflow-y: auto; */
+    /* background-color: rgb(189, 153, 153); */
+}
+.elements{
+    display:    flex;
+    align-items: center;
+    justify-content: space-between;
+    width:50%;
+}
+.elem h2{
+    padding-left: 10px;
+}
+.box{
+    margin-left: 8px;
+    color:black;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom:8.55px;
+    /* justify-content: space-around; */
+    color:white;
+    font-size:25px;
+    height:35px;
+    width:35px;
+    background-color: rgb(118, 239, 118);
+    border-radius: 50%;
+}
+.bubble:hover{
+    background-color:rgb(51, 232, 120);
+}
+
+@media  (max-width:1000px) {
+    .bubble{
+    font-size:3vh;
+    height:6vh;
+    width:6vh;
+    margin:2px;
+    }
+}
